@@ -5,6 +5,6 @@ export const LoginValidate = yup.object().shape({
     .string()
     .trim()
     .required('El password es requerido')
-    .min(4, 'El minimo debe ser 4 caracteres')
-    .max(4, 'El maximo debe ser 20 caracteres'),
+    .min(4, 'El minimo 4 caracteres')
+    .max(4, 'El maximo 20 caracteres'),
 });
